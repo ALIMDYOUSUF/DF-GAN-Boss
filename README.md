@@ -2,7 +2,7 @@
 DF-GAN Boss
 **The new readme will be updated soon**
 
-# DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis (CVPR 2022 Oral)
+
 
 (A novel and effective one-stage Text-to-Image Backbone)
 
@@ -15,12 +15,6 @@ Official Pytorch implementation for our paper [DF-GAN: A Simple and Effective Ba
 - python 3.7+
 - Pytorch 1.9+
 ### Installation
-
-Clone this repo.
-```
-git clone https://github.com/tobran/DF-GAN
-cd DF-GAN/code/
-```
 
 ### Datasets Preparation
 1. Download the preprocessed metadata for [birds](https://drive.google.com/open?id=1O_LtUP9sch09QH3s_EBAgLEctBQ5JBSJ) [coco](https://drive.google.com/open?id=1rSnbIGNDGZeHlsUlLdahj0RJ9oo6lgH9) and save them to `data/`
@@ -54,20 +48,7 @@ cd DF-GAN/code/
 - We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
 - We compute FID for CUB and coco using [DM-GAN/eval/FID](https://github.com/MinfengZhu/DM-GAN/tree/master/eval/FID). 
 
----
-### Citing DF-GAN
 
-If you find DF-GAN useful in your research, please consider citing our paper:
-
-```
-@article{ming2020DFGAN,
-  title={DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis},
-  author={Ming Tao, Hao Tang, Fei Wu, Xiao-Yuan Jing, Bing-Kun Bao, Changsheng Xu},
-  journal={arXiv preprint arXiv:2008.05865},
-  year={2020}
-}
-```
-The code is released for academic research use only. For commercial use, please contact [Ming Tao](mingtao2000@126.com).
 
 **Reference**
 
